@@ -3,7 +3,7 @@ class Api::V1::PostsController < Api::V1::ApiController
   
 
   def index 
-    @users = User.all 
+    render plain: 'Hello'
   end
 
 end
